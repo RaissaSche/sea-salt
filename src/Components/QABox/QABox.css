@@ -1,0 +1,21 @@
+.question {
+    font-family: 'Raleway', sans-serif;
+}
+
+.answer {
+    padding: 12px 20px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    width: 30vw;
+}
+
+.imageQA {
+    max-width: 600px;
+    margin-top: 3vh;
+}
+
+@media (max-width: 800px) {
+    .answer {
+        width: 60vw;
+    }
+}

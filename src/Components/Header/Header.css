@@ -1,0 +1,42 @@
+header {
+    background-color: #029E78;
+    min-height: initial;
+    width: 100%;
+    padding: 0px 20px;
+    display: flex;
+    z-index: -1;
+}
+
+.icon {
+    width: 50%;
+    margin-left: 5vw;
+    margin-right: 15vw;
+}
+
+.sino {
+    background-color: #029E78;
+    border: 0;
+    width: 50%;
+    cursor: pointer;
+}
+
+.sino:hover {
+    background-color: #03a880;
+}
+
+@media (max-width: 800px) {
+    header {
+        height: 12vh;
+        width: 100%;
+    }
+    .barraPesquisa {
+        transform: translateX(-205%);
+        display: none;
+    }
+    .icon {
+        width: 50%;
+        height: 90%;
+        margin-left: 20vw;
+        margin-top: 1vh;
+    }
+}

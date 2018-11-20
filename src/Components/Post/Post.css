@@ -1,0 +1,124 @@
+.containerInfos {
+    display: flex;
+    align-items: baseline;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.containerTextos {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.texto {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 21px;
+    align-self: left;
+    color: #5C5C5C;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.posts {
+    width: calc(49% - 4vh);
+    box-shadow: 0vh 0.7vh 1vh rgba(0, 0, 0, 0.25);
+    background-color: white;
+    margin: 2vh;
+    height: 100%;
+}
+
+.fotoDePerfilMask {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+    top: 30px;
+}
+
+.fotoDePerfil {
+    height: 100%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.infos {
+    display: flex;
+    flex-direction: column;
+    align-self: left;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.info1 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 13px;
+    align-self: left;
+    color: #5C5C5C;
+}
+
+.info2 {
+    height: 11px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-style: italic;
+    font-size: 10px;
+    line-height: 9px;
+    align-self: left;
+    color: #A5A9AC;
+}
+
+.imagemPost {
+    max-width: 100%;
+    flex: 1;
+}
+
+.containerBotao {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: white;
+    width: 100%;
+}
+
+.tituloPost {
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    line-height: 42px;
+    color: black;
+    margin-top: 10px;
+    padding-left: 5px;
+}
+
+.texto {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 21px;
+    align-self: left;
+    color: #5C5C5C;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+@media (max-width: 1000px) {
+    .posts {
+        width: 70%;
+        margin-left: 1vw;
+    }
+}
+
+@media (max-width: 800px) {
+    .posts {
+        width: 90%;
+    }
+}

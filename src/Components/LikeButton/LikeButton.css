@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400i,500, 300');
+.gostei {
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 10vh;
+    color: #929292;
+    justify-content: center;
+    width: 50%;
+    border-left: 1px solid #A5A9AC;
+    border-right: 1px solid #A5A9AC;
+    cursor: pointer;
+}
+
+.gostei:hover {
+    background: rgb(202, 202, 202);
+}
+
+.svgGostei {
+    margin-top: 1vh;
+    margin-right: 1vw;
+}

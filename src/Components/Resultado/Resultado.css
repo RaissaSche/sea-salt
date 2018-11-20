@@ -1,0 +1,55 @@
+.containerAmigoAuxiliar {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.containerAmigo {
+    background-color: #02d19f;
+    border-radius: 50px;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 2%;
+    margin-block-start: 2%;
+}
+
+.imagemAmigoMask {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+    border: 15px solid #02d19f;
+}
+
+.imagemAmigo {
+    height: 100%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+@media (max-width: 900px) {
+    .imagemAmigoMask {
+        height: 150px;
+        width: 150px;
+    }
+}
+
+@media (max-width: 900px) {
+    .imagemAmigoMask {
+        height: 150px;
+        width: 150px;
+    }
+}
+
+@media (max-width: 800px) {
+    .containerAmigo {
+        flex-direction: column;
+        border-radius: 40px;
+        padding-bottom: 15px;
+    }
+}

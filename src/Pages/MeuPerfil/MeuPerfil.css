@@ -1,0 +1,71 @@
+.perfil {
+    justify-content: center;
+    background-color: #E5E5E5;
+}
+
+.containerPerfil {
+    display: flex;
+    justify-content: center;
+    margin-left: 3%;
+}
+
+.imagemPerfilMask {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+    top: 100px;
+    border: 15px solid #02d19f;
+}
+
+.imagemPerfil {
+    height: 100%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.nomePerfil {
+    color: rgb(32, 104, 87);
+    font-family: 'Dancing Script', cursive;
+    font-size: 3em;
+    margin: 0;
+    right: 15px;
+}
+
+.apelidoPerfil {
+    color: rgb(1, 78, 59);
+}
+
+.perfilHeader {
+    width: 100%;
+    height: 30vh;
+    background: #02d19f;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    margin-bottom: 120px;
+}
+
+.editar {
+    background-color: #E5E5E5;
+    border: none;
+    padding: 9px 12px;
+    cursor: pointer;
+}
+
+.editar:hover {
+    background-color: #c6c6c6;
+}
+
+@media (max-width: 800px) {
+    .feed {
+        flex-direction: column;
+        width: 100%;
+        padding-left: 5%;
+    }
+    .perfilHeader {
+        height: 20vh;
+    }
+}
